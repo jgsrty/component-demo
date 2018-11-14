@@ -3,6 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+//normalize.css
+import "normalize.css/normalize.css";
+//rty-vue-components
+import 'rty-vue-components/dist/rty-vue-components.min.css'
+import { rtyButton, rtyProgress } from 'rty-vue-components'
+Vue.component('rtyButton',rtyButton)
+Vue.component('rtyProgress',rtyProgress)
 
 Vue.config.productionTip = false
 
